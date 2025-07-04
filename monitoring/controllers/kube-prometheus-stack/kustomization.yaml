@@ -5,6 +5,7 @@ resources:
   - namespace.yaml
   - repository.yaml
   - release.yaml
+  - servicemonitor.yaml
 configMapGenerator:
   - name: flux-kube-state-metrics-config
     files:
